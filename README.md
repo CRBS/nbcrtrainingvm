@@ -10,25 +10,32 @@ This source tree contains a [Vagrant][vagrant] configuration file that can be us
 
 * [Virtual Box][virtualbox]
 * [Vagrant][vagrant]
+ 
+This should work on any operating system that supports the above two programs
 
 
 ### Hardware requirements
 
 * XX gigabytes of harddrive
 
-* Minimum 4 gigabytes of ram
+* Minimum **4** gigabytes of ram
+
+* Internet connection
 
 # To start from linux or mac
 
 On a terminal type the following to create the virtual machine
-and connect to it via ssh:
+and connect to it via **ssh**:
 
 ```Bash
 git clone https://github.com/CRBS/nbcrtrainingvm.git
 cd nbcrtrainingvm
 vagrant up
 vagrant ssh -- -X
+3dmod # this will launch IMOD, if setup properly a window will be displayed
 ```
+The **vagrant up** can take a while since it will download a base image and install needed packages
+
 NOTE: Instead of running **git** clone above, one can download the source tree and unzip it
 
 ### To turn off virtual machine, but not destroy it run:
