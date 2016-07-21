@@ -16,7 +16,7 @@ This should work on any operating system that supports the above two programs
 
 ### Hardware requirements
 
-* XX gigabytes of harddrive
+* 10+ gigabytes of disk space
 
 * Minimum **4** gigabytes of ram
 
