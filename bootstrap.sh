@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing base packages"
-yum install -y cmake git 
+yum install -y cmake git unzip tree 
 yum install -y epel-release
 yum install -y python python-devel qt qt-devel wget tcsh xauth xclock
 yum install -y gcc-c++ mlocate time ImageMagick ImageMagick-c++
