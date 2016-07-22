@@ -1,6 +1,7 @@
 [vagrant]: https://www.vagrantup.com/
 [virtualbox]: https://www.virtualbox.org/
 [nbcrtrain]: https://biobigdata.ucsd.edu/discover/courses/nbcr_summer_training_program_-_data_to_structural_models
+[gitbash]: https://git-for-windows.github.io/
 
 # nbcrtrainingvm
 
@@ -51,9 +52,29 @@ vagrant destroy
 ```
 
 
-# To start from Windows
+# To start from Windows 10
 
-TODO
+Windows is a bit more complicated.  In addition to [Vagrant][vagrant] and [Virtual box][virtualbox] [Git Bash][gitbash] should also be downloaded and installed.  
+
+[Git Bash][gitbash] is part of [git for windows][gitbash]
+
+After installation launch **Git Bash** via the desktop icon and
+follow the directions above for linux/mac.
+
+If a message comes up about failure to download puppetlabs/centos...
+
+run this command from the terminal:
+
+```Bash
+cp /mingw64/bin/curl.exe /c/HashiCorp/Vagrant/embedded/bin/curl.exe
+```
+
+The above fixes an issue with windows 10 (https://github.com/mitchellh/vagrant/issues/6754)
+
+
+
+
+
 
 
 
