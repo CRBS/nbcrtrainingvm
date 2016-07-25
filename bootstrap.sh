@@ -7,7 +7,11 @@ yum install -y python python-devel qt qt-devel wget tcsh xauth xclock
 yum install -y gcc-c++ mlocate time ImageMagick ImageMagick-c++
 yum install -y xorg-x11-fonts-*
 yum install -y mesa-*
+yum install -y opencv opencv-python numpy numpy-f2py scipy python-pip
 updatedb
+
+pip install scikit-learn
+
 # imod
 echo "Imod installation"
 wget http://bio3d.colorado.edu/imod/AMD64-RHEL5/imod_4.7.15_RHEL6-64_CUDA6.0.csh
