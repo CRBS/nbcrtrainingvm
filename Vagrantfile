@@ -6,7 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure(2) do |config|
-  config.vm.box = "puppetlabs/centos-7.0-64-nocm"
+  config.vm.box = "puppetlabs/centos-7.2-64-puppet"
   config.vm.provision :shell, path: "bootstrap.sh"
   config.ssh.forward_x11 = true
 
