@@ -5,6 +5,9 @@
 
 # nbcrtrainingvm
 
+[![HitCount](http://hits.dwyl.io/crbs/nbcrtrainingvm.svg)](http://hits.dwyl.io/crbs/nbcrtrainingvm)
+
+
 This source tree contains a [Vagrant][vagrant] configuration file that can be used to generate a virtual machine with software needed for day 1 of [NBCR summer training program][nbcrtrain]
 
 ### Software requirements
