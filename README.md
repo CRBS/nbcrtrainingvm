@@ -75,12 +75,6 @@ cp /mingw64/bin/curl.exe /c/HashiCorp/Vagrant/embedded/bin/curl.exe
 The above fixes an issue with windows 10 (https://github.com/mitchellh/vagrant/issues/6754)
 
 
-
-
-
-
-
-
 COPYRIGHT AND LICENCE
 
 Copyright 2016 The Regents of the University of California All Rights Reserved
